@@ -1,2 +1,2 @@
-# folium-postigs-map
+# choropleth-postigs-map
  
