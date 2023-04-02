@@ -31,6 +31,8 @@ You can use the application with the front end only.  To enable backend to enter
 1. Create the user database using createusers.sql
 2. Go to applocation/registration.php and register and account.
 
+ .. image:: _static/backend.png
+
 Via Git or Download
 ===================
 
