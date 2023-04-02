@@ -36,7 +36,6 @@ PostGIS Choropleth Maps
     :caption: Pages
 
     pages/dashboard
-    pages/webapp
     pages/map    
     
     
