@@ -10,34 +10,16 @@
 View Maps
 ******************
 
-.. contents:: Table of Contents
+There are two ways to view maps.
 
-Restore
-=============
+Each map entry creates an icon with map link on the dashboard.
 
-To restore a snapshot, click the Restore tab as shown below.
-
-      .. image:: _static/restore-tab.png
+      .. image:: ../../_static/frontend.png
 
       
-From here, select the database you wish to restore from the drop down.  Next, select the Snapshot you wish to use for the restore from the drop-down of available Snapshots as shown below and click the Restore button.  
+Alternatively, if you are not using the backend component, maps can be accessed directly using syntax blow:
 
-
-      .. image:: _static/restore-panel.png
-      
-      
-      
-Snapshot Location
-===================
-      
-Snapshots are saved to /opt/snapshots/
-
-The Snapshots are taken in both sql and dump formats.
-
-A a timestap is added in the format YYYY-MM-DD-HR-MM-database.  An example is shown below::
-
-   /opt/2020-05-10-08-55_demodb.sql.gz
-
-
-
+ https://geoexhibit.com/<appFolder>/map.php?id=<id>
+ 
+ Where appFolder is the directory you installed the application and id is the map id from the database row.    
 
