@@ -23,18 +23,27 @@ It also contains a link to the login page (which can be removed if you are not u
 Main Code
 ===================
 
-The Metric field is the field which will be used for coloring the map.
+The main code block for generating the map links is below:
 
-This field can be a standard data column or a calculated column.
+.. code-block:: php
 
-In the demo data (widgets.sql), the Metric column is calculated:
+  <?PHP foreach($rows as $row) { ?>
+            <?PHP
+                $image = file_exists("assets/maps/{$row['id']}.png") ? "assets/maps/{$row['id']}.png" : "assets/maps/default.png";
+            ?>
+            <a href="map.php?id=<?=$row['id']?>" style="text-decoration:none; color: #6c757d!important; font-size: 1.25rem; font-weight: 300;">
+                <div class="col">
+                    <img src="<?=$image?>" height="225" width="100%">
+                    
+                    <div class="card-body">
+                        <p class="card-text text-center"><?=$row['name']?></p>
+                    </div>
+                </div>
+            </a>
+        <?PHP } ?>
 
-.. code-block:: sql
 
-  alter table public.wardinfo add column widgetsperward numeric GENERATED ALWAYS AS (round(widgets / POWER((perimeter)/4),2))) STORED
-
-.. Warning:: 
-   Leaflet generated GeoJson for the map.  You should limit the amount of data and columns to prevent long load times. 
+ 
 
 
 
