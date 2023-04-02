@@ -37,6 +37,12 @@ The Metric field is the field which will be used for coloring the map.
 
 This field can be a standard data column or a calculated column.
 
+In the demo data (widgets.sql), the Metric column is calculated:
+
+```sql
+alter table public.wardinfo add column widgetsperwardyyy numeric GENERATED ALWAYS AS (round(widgets / POWER((perimeter)/4),2))) STORED
+```
+
       
 Input New Entry
 ===================
