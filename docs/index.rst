@@ -33,11 +33,11 @@ PostGIS Choropleth Maps
     
 .. toctree::
     :maxdepth: 2
-    :caption: Main Pages
+    :caption: Pages
 
-    code/dashboard
-    code/map
-    code/webapp    
+    pages/dashboard
+    pages/webapp
+    pages/map    
     
     
 .. toctree::
