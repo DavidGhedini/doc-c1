@@ -1,7 +1,7 @@
 PostGIS Builder
 ==================================================
 
- .. image:: _static/postgis.png
+ .. image:: _static/frontend.png
 
 .. include:: ../README.rst
 
@@ -23,11 +23,11 @@ PostGIS Builder
     
 .. toctree::
     :maxdepth: 2
-    :caption: Database
+    :caption: Maps
 
-    database/snapshot/index
-    database/clone/index
-    database/restore/index
+    maps/create/index
+    maps/edit/index
+    maps/view/index
     
     
 .. toctree::
