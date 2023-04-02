@@ -40,8 +40,11 @@ This field can be a standard data column or a calculated column.
 In the demo data (widgets.sql), the Metric column is calculated:
 
 .. code-block:: sql
-   :linenos:
-alter table public.wardinfo add column widgetsperward numeric GENERATED ALWAYS AS (round(widgets / POWER((perimeter)/4),2))) STORED
+
+   alter table public.wardinfo add column widgetsperward numeric GENERATED ALWAYS AS (round(widgets / POWER((perimeter)/4),2))) STORED
+
+.. Note:: 
+   Leaflet generated GeoJson for the map.  You should limit the amount of data and columns to prevent long load times. 
 
 
 Input New Entry
