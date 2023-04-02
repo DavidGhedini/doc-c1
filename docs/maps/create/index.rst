@@ -12,22 +12,24 @@ Add Map Entry
 
 .. contents:: Table of Contents
 
-Take Snapshot
-=============
 
-To take a snapshot, click the Snapshot tab as shown below.
+To add a new entry, click the "Add New" button as shown below.
 
-      .. image:: _static/snapshot-tab.png
+      .. image:: _static/add-new.png
 
       
-From here, select the database you wish to Snapshot from the drop-down as shown below and click the Create button.  
+Populate the fields as shown below.  
 
 
-      .. image:: _static/snapshot-panel.png
+      .. image:: _static/add-new-2.png
       
+  
+Click the Save icon as shown below.  
+
+
+      .. image:: _static/add-new-3.png
       
-      
-Snapshot Location
+Filed Values
 ===================
       
 Snapshots are saved to /opt/snapshots/
