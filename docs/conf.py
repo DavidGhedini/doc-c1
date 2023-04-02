@@ -12,8 +12,8 @@ from sphinx.locale import _
 from sphinx_rtd_theme import __version__
 
 
-project = u'AcuGIS PostGIS Builder'
-copyright = u'2020, Cited, Inc.'
+project = u'PostGIS Choropleth Maps'
+copyright = u'2023, Cited, Inc.'
 slug = re.sub(r'\W+', '-', project.lower())
 version = __version__
 release = __version__
