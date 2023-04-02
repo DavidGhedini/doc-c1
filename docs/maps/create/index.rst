@@ -30,6 +30,10 @@ The values for the database fields are shown below
 12. **Lon** - initial lon
 13. **Zoom** - initial zoom
 
+
+.. Note:: 
+   All database columns are character varying. .
+
 Metric Field
 ===================
 
