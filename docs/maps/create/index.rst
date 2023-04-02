@@ -35,6 +35,8 @@ Metric Field
 
 The Metric field is the field which will be used for coloring the map.
 
+This field can be a standard data column or a calculated column.
+
       
 Input New Entry
 ===================
