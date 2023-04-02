@@ -1,7 +1,7 @@
 PostGIS Builder
 ==================================================
 
- .. image:: _static/postgis.png
+ .. image:: _static/frontend.png
 
 .. include:: ../README.rst
 
