@@ -16,31 +16,19 @@ Field Values
       
 The values for the database fields are shown below
 
-*ID
-
-*Name
-
-*Host
-
-*Database
-
-*Schema
-
-*Username
-
-*Password
-
-*Geom
-
-*Metric
-
-*Table
-
-*Lat
-
-*Lon
-
-*Zoom
+1. **ID** - Map id (pk, shown only, cannot be updated)
+2. **name** - Map name
+3. **Host** - hostname or IP of PostGIS database
+4. **Database** - database name
+5. **Schema** - schema
+6. **Username** - database username
+7. **Password** - database username
+8. **Geom** - database geom column
+9. **Metric** - field to render colors (see below)
+10. **Table** - database table
+11. **Lat** - initial lat
+12. **Lon** - initial lon
+13. **Zoom** - initial zoom
 
 Metric Field
 ===================
