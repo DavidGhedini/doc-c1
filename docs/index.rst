@@ -35,29 +35,24 @@ PostGIS Choropleth Maps
     :maxdepth: 2
     :caption: Main Pages
 
+    code/dashboard
     code/map
     code/webapp    
     
     
 .. toctree::
     :maxdepth: 2
-    :caption: Apps
+    :caption: Auth
 
-    apps/home
-    apps/geodjango
-    apps/geojson
-    apps/pgtileserv
-    apps/nodejs
+    auth/database
+    auth/registration
+    auth/login
     
   
 .. toctree::
     :maxdepth: 2
     :caption: Resources
 
-    resources/css
-    resources/security
-    resources/support
-    resources/commercial
     resources/license
     
     
