@@ -28,6 +28,7 @@ PostGIS Builder
     maps/create/index
     maps/edit/index
     maps/view/index
+    maps/thumbnail/index
     
     
 .. toctree::
