@@ -9,34 +9,62 @@
 ***************************
 Add Map Entry
 ***************************
-
 .. contents:: Table of Contents
 
-Take Snapshot
-=============
-
-To take a snapshot, click the Snapshot tab as shown below.
-
-      .. image:: _static/snapshot-tab.png
-
-      
-From here, select the database you wish to Snapshot from the drop-down as shown below and click the Create button.  
-
-
-      .. image:: _static/snapshot-panel.png
-      
-      
-      
-Snapshot Location
+Field Values
 ===================
       
-Snapshots are saved to /opt/snapshots/
+The values for the database fields are shown below
 
-The Snapshots are taken in both sql and dump formats.
+1. **ID** - Map id (pk, shown only, cannot be updated)
+2. **name** - Map name
+3. **Host** - hostname or IP of PostGIS database
+4. **Database** - database name
+5. **Schema** - schema
+6. **Username** - database username
+7. **Password** - database username
+8. **Geom** - database geom column
+9. **Metric** - field to render colors (see below)
+10. **Table** - database table
+11. **Lat** - initial lat
+12. **Lon** - initial lon
+13. **Zoom** - initial zoom
 
-A a timestap is added in the format YYYY-MM-DD-HR-MM-database.  An example is shown below::
+Metric Field
+===================
 
-   /opt/2020-05-10-08-55_demodb.sql.gz
+The Metric field is the field which will be used for coloring the map.
+
+This field can be a standard data column or a calculated column.
+
+In the demo data (widgets.sql), the Metric column is calculated:
+
+.. code-block:: sql
+   :linenos:
+   alter table public.wardinfo add column widgetsperward numeric GENERATED ALWAYS AS (round(widgets / POWER((perimeter)/4),2))) STORED
+
+
+Input New Entry
+===================
+
+To add a new entry, click the "Add New" button as shown below.
+
+      .. image:: _static/add-new.png
+
+      
+Populate the fields as shown below.  
+
+
+      .. image:: _static/add-new-2.png
+      
+  
+Click the Save icon as shown below.  
+
+
+      .. image:: _static/add-new-3.png   
+
+
+
 
 
 

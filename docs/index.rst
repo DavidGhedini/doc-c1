@@ -33,11 +33,10 @@ PostGIS Choropleth Maps
     
 .. toctree::
     :maxdepth: 2
-    :caption: Varnish Cache
+    :caption: Main Pages
 
-    cache/varnish/index
-    cache/hitch/index
-    cache/apache/index
+    code/map
+    code/webapp    
     
     
 .. toctree::
