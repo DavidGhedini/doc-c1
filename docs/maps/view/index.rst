@@ -19,7 +19,7 @@ Each map entry creates an icon with map link on the dashboard.
       
 Alternatively, if you are not using the backend component, maps can be accessed directly using syntax blow:
 
- https://geoexhibit.com/<appFolder>/map.php?id=<id>
+ https://domain.com/<appFolder>/map.php?id=<id>
  
  Where appFolder is the directory you installed the application and id is the map id from the database row.    
 
