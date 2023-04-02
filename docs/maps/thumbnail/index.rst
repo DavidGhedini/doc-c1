@@ -10,20 +10,19 @@
 Set Thumbnail
 ******************
 
-.. contents:: Table of Contents
+By default, the thumbnail for all maps is /assets/maps/default.png
 
-Restore
-=============
+To set a thumbnail for maps, upload <id>.png to the /assets/maps folder, where <id> is the map id.
 
-To restore a snapshot, click the Restore tab as shown below.
+As shown below, only maps 1 and 3 will have a custom thumbnail, all other maps will use default.png
 
-      .. image:: _static/restore-tab.png
+      .. image:: _static/thumbnail.png
 
       
-From here, select the database you wish to restore from the drop down.  Next, select the Snapshot you wish to use for the restore from the drop-down of available Snapshots as shown below and click the Restore button.  
+The default.png is below, but it can be changed to any png you wish to use.
 
 
-      .. image:: _static/restore-panel.png      
+      .. image:: _static/default.png      
       
       
 
