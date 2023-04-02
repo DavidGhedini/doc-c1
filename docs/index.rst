@@ -1,4 +1,4 @@
-PostGIS Builder
+PostGIS Choropleth Maps
 ==================================================
 
  .. image:: _static/frontend.png
