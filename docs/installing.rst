@@ -4,10 +4,10 @@ Installation
 
 Installation can be done using the postgis-builder.sh script or via GIT.
 
-Using the Installer
+Installation
 =======================
 
-On a fresh CentOS 8, Ubuntu 18, or Ubuntu 20 installation, the fastest method is to use the postgis-builder.sh script:
+Use wget to download the application to your public directory:
 
 .. code-block:: console
    :linenos:
@@ -18,28 +18,18 @@ On a fresh CentOS 8, Ubuntu 18, or Ubuntu 20 installation, the fastest method is
     
 The above will install all of the components.
 
-If you do not wish to install Webmin and the PostGIS Webmin Module, comment out the lines below as shown.
+Database Creation
+===================
 
-.. code-block:: console
-   :linenos:
+Run the install.sql to create the table for forms.
 
-   # install_webmin
-   # install_postgis_module
-   # install_certbot_module
+Backend (Optional)
+===================
 
-When the script completes, you will see the message below containg the urls and password.
+You can use the application with the front end only.  To enable backend to enter and edit resources via UI:
 
-The passwords are also stored in the file /root/auth.txt following set up
-
-.. code-block:: console
-   :linenos:
-
-   Installation is now completed.
-   Access pg-tileserv at 12.34.56.78:7800
-   Access pg-featureserv at 12.34.56.78:9000
-   Access pg-routing at 12.34.56.78/openlayers-pgrouting.html
-   postgres and crunchy pg passwords are saved in /root/auth.txt file
-
+1. Create the user database using createusers.sql
+2. Go to applocation/registration.php and register and account.
 
 Via Git or Download
 ===================
