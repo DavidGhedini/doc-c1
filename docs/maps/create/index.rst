@@ -39,7 +39,9 @@ This field can be a standard data column or a calculated column.
 
 In the demo data (widgets.sql), the Metric column is calculated:
 
-> alter table public.wardinfo add column widgetsperward numeric GENERATED ALWAYS AS (round(widgets / POWER((perimeter)/4),2))) STORED
+.. code-block:: sql
+   :linenos:
+alter table public.wardinfo add column widgetsperward numeric GENERATED ALWAYS AS (round(widgets / POWER((perimeter)/4),2))) STORED
 
 
 Input New Entry
