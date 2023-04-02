@@ -7,7 +7,7 @@
    :width: 1em
 
 ******************
-Restore Database
+View Maps
 ******************
 
 .. contents:: Table of Contents
