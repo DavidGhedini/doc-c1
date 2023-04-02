@@ -18,7 +18,7 @@ The main dahsboard generates a thumbnail link for each row entry in the database
 
 It also contains a link to the login page (which can be removed if you are not using the backend).
       
- .. image:: ../../_static/frontend.png .
+ .. image:: ../../docs/_static/frontend.png .
 
 Main Code
 ===================
