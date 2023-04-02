@@ -1,20 +1,18 @@
 **********************
-Enable CORS
+Main Map Code
 **********************
 
-To enable CORS for your Tomcat instance, you can use our included file.
+The main code is located in map.php.
 
-This file is located under /scripts/cors.txt
-
-The contents should be added to the line just before </web-app> in your /home/tomcat/apache-tomcat-{version}/conf/web.xml
+This file is the one you would update to make any changes you want to map rendering.
 
 .. warning::
-      Be sure to create a backup of your web.xml file before making any changes.
+      Be sure to create a backup of your map.php file before making any changes.
       
 
 The file Contents are below
 
-.. code-block:: xml
+.. code-block:: php
    :linenos:
    
    
