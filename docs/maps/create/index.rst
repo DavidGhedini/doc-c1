@@ -7,7 +7,7 @@
    :width: 1em
 
 ***************************
-Database Snapshots
+Add Map Entry
 ***************************
 
 .. contents:: Table of Contents

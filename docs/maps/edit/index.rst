@@ -7,7 +7,7 @@
    :width: 1em
 
 ***************************
-Clone Database
+Edit Entry
 ***************************
 
 .. contents:: Table of Contents
