@@ -16,47 +16,6 @@ Field Values
       
 The values for the database fields are shown below
 
-ID	
-Name	
-Host	
-Database	
-Schema	
-Username	
-Password	
-Geom	
-Metric	
-Table	
-Lat	
-Lon	
-Zoom
-
-Metric Field
-===================
-
-
-
-
-To add a new entry, click the "Add New" button as shown below.
-
-      .. image:: _static/add-new.png
-
-      
-Populate the fields as shown below.  
-
-
-      .. image:: _static/add-new-2.png
-      
-  
-Click the Save icon as shown below.  
-
-
-      .. image:: _static/add-new-3.png
-      
-Input New Entry
-===================
-      
-The values for the database fields are shown below
-
 *ID
 
 *Name
@@ -83,9 +42,33 @@ The values for the database fields are shown below
 
 *Zoom
 
-A a timestap is added in the format YYYY-MM-DD-HR-MM-database.  An example is shown below::
+Metric Field
+===================
 
-   /opt/2020-05-10-08-55_demodb.sql.gz
+The Metric field is the field which will be used for coloring the map.
+
+      
+Input New Entry
+===================
+
+To add a new entry, click the "Add New" button as shown below.
+
+      .. image:: _static/add-new.png
+
+      
+Populate the fields as shown below.  
+
+
+      .. image:: _static/add-new-2.png
+      
+  
+Click the Save icon as shown below.  
+
+
+      .. image:: _static/add-new-3.png   
+
+
+
 
 
 
