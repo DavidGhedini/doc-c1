@@ -29,18 +29,16 @@ Authors
 Components
 ----------
 
-`PostgreSQL`_
-
-.. _`PostgreSQL`: https://www.postgresql.org/
-
-
-`PostGIS`_
-
-.. _`PostGIS`: https://postgis.net/ 
-
 `Leafletjs`_
 
 .. _`Leafletjs`: https://leafletjs.com/ 
+
+
+`PHP`_
+
+.. _`PHP`: https://www.php.net/
+
+
 
 
  
