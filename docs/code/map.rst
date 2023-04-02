@@ -1,8 +1,8 @@
 **********************
-Main Map Code
+Map
 **********************
 
-The main code is located in map.php.
+The main map code is located in map.php.
 
 This file is the one you would update to make any changes you want to map rendering.
 
