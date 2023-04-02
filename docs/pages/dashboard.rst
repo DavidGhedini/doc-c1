@@ -7,11 +7,11 @@
    :width: 1em
 
 ***************************
-Add Map Entry
+Dashboard
 ***************************
 .. contents:: Table of Contents
 
-Field Values
+Components
 ===================
       
 The values for the database fields are shown below
@@ -34,7 +34,7 @@ The values for the database fields are shown below
 .. Note:: 
    All database columns are character varying. .
 
-Metric Field
+Main Code
 ===================
 
 The Metric field is the field which will be used for coloring the map.
@@ -50,25 +50,6 @@ In the demo data (widgets.sql), the Metric column is calculated:
 .. Warning:: 
    Leaflet generated GeoJson for the map.  You should limit the amount of data and columns to prevent long load times. 
 
-
-Input New Entry
-===================
-
-To add a new entry, click the "Add New" button as shown below.
-
-      .. image:: _static/add-new.png
-
-      
-Populate the fields as shown below.  
-
-
-      .. image:: _static/add-new-2.png
-      
-  
-Click the Save icon as shown below.  
-
-
-      .. image:: _static/add-new-3.png   
 
 
 
