@@ -39,28 +39,11 @@ This field can be a standard data column or a calculated column.
 
 In the demo data (widgets.sql), the Metric column is calculated:
 
-```php
-alter table public.wardinfo add column widgetsperward numeric GENERATED ALWAYS AS (round(widgets / POWER((perimeter)/4),2))) STORED
+.. code-block:: sql
+   :linenos:
+   alter table public.wardinfo add column widgetsperward numeric GENERATED ALWAYS AS (round(widgets / POWER((perimeter)/4),2))) STORED
 ```
 
-Usage
--------
-```php
-<?php
-use JakubOnderka\PhpConsoleColor\ConsoleColor;
-use JakubOnderka\PhpConsoleHighlighter\Highlighter;
-
-require __DIR__ . '/vendor/autoload.php';
-
-$highlighter = new Highlighter(new ConsoleColor());
-
-$fileContent = file_get_contents(__FILE__);
-echo $highlighter->getWholeFile($fileContent);
-```
-
-------
-
-      
 Input New Entry
 ===================
 
