@@ -31,15 +31,16 @@ Components
 
 `PostgreSQL`_
 
-.. _`PostgreSQL`: https://www.opal-consulting.de/downloads/free_tools/JasperReportsIntegration/ 
+.. _`PostgreSQL`: https://www.postgresql.org/
+
 
 `PostGIS`_
 
-.. _`PostGIS`: https://community.jaspersoft.com/project/jasperreports-library 
+.. _`PostGIS`: https://postgis.net/ 
 
 `Leafletjs`_
 
-.. _`PgRouting`: https://leafletjs.com/ 
+.. _`Leafletjs`: https://leafletjs.com/ 
 
 
  
