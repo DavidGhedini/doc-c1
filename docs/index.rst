@@ -36,7 +36,7 @@ PostGIS Choropleth Maps
     :caption: Main Pages
 
     code/map
-    cache/webapp    
+    code/webapp    
     
     
 .. toctree::
