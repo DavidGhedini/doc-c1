@@ -9,8 +9,31 @@
 ***************************
 Add Map Entry
 ***************************
-
 .. contents:: Table of Contents
+
+Field Values
+===================
+      
+The values for the database fields are shown below
+
+ID	
+Name	
+Host	
+Database	
+Schema	
+Username	
+Password	
+Geom	
+Metric	
+Table	
+Lat	
+Lon	
+Zoom
+
+Metric Field
+===================
+
+
 
 
 To add a new entry, click the "Add New" button as shown below.
@@ -29,12 +52,36 @@ Click the Save icon as shown below.
 
       .. image:: _static/add-new-3.png
       
-Filed Values
+Input New Entry
 ===================
       
-Snapshots are saved to /opt/snapshots/
+The values for the database fields are shown below
 
-The Snapshots are taken in both sql and dump formats.
+*ID
+
+*Name
+
+*Host
+
+*Database
+
+*Schema
+
+*Username
+
+*Password
+
+*Geom
+
+*Metric
+
+*Table
+
+*Lat
+
+*Lon
+
+*Zoom
 
 A a timestap is added in the format YYYY-MM-DD-HR-MM-database.  An example is shown below::
 
