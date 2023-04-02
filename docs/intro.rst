@@ -4,11 +4,11 @@ Intro
 Overview
 ------------
 
-PostGIS is a simple web application for creating C maps from PostGIS data.
+PostGIS Choropleth Maps is a simple web application for creating Choropleth maps from PostGIS data.
 
 It requires PostgreSQL and PostGIS to be installed on target databases.
 
-It also includes an optional backend for adding, editing, and deleting database connections.
+It also includes an optional backend admin panel for adding, editing, and deleting database connections.
 
 System Requirements
 -------------------
