@@ -10,34 +10,20 @@
 Edit Entry
 ***************************
 
-.. contents:: Table of Contents
+To edit an entry, 
 
-Clone a Database
-===============
+To add a new entry, click the "Add New" button as shown below.
 
-To clone a database, click the Clone tab as shown below.
-
-      .. image:: _static/clone-tab.png
+      .. image:: ../create/_static/edit-new.png
 
       
-From here, select the database from the drop-down that you wish to clone.
-
-Next, enter the name you would like to give the clone ('myclone' in example below).
-
-Click the Create button.  
+Update the desired field(s) as shown below.  
 
 
-      .. image:: _static/clone-panel.png
+      .. image:: ../create/_static/add-new-2.png
       
-      
-      
-Naming
-=======
-
-While any name can be given, its a good idea to give clones a name that reflect their purpose.
-      
+  
+Click the Save icon as shown below.  
 
 
-
-
-
+      .. image:: ../create/_static/add-new-3.png   
